@@ -50,7 +50,7 @@ pipeline {
                     kubeconfigId: 'kubeconfig',
                     configs: 'train-schdeule-kube-canary.yml',
                     enableConfigSubstitution: true
-                    )
+                )
             }
         }
         stage('DeployToProduction') {
